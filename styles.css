@@ -3,9 +3,61 @@ h1 {
 }
 
 body {
-    color: rgb(111, 218, 69);
-    background-color: rgb(255, 255, 255);
+
+    background-color: rgb(38, 35, 35) ;
+}
+
+header {
+    color: rgb(214, 207, 207);
+    background-color: rgb(38, 35, 35);
+
+    text-align: center;
+    font-size: 25px;
+    font-family: "Anton", sans-serif;
     
+    border: 2px solid rgb(235, 35, 35) ;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top : 10px;
+    margin-left: 20em;
+    margin-right: 20em;
+
+    
+}
+
+nav, nav a {
+    text-decoration: none;
+    color: rgb(214, 207, 207);
+
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+
+
+}
+
+.divers {
+
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    height: 60em;
+    flex-direction: column;
+
+
+}
+
+nav a:hover {
+    text-decoration:underline;
+}
+
+.maintext {
+
+    background-color: rgb(240, 0, 32);
+    height: 20px;
+    width: 10%;
+    min-width: 1000px;
+    max-height: 500px;
+
 }
 
 #test {
