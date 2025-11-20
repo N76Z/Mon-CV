@@ -4,50 +4,95 @@ h1 {
 
 body {
 
-    background-color: rgb(38, 35, 35) ;
+    background-color: rgb(54, 54, 54) ;
+    margin: 0;
 }
 
 header {
     color: rgb(214, 207, 207);
-    background-color: rgb(38, 35, 35);
+    background-color: rgb(214, 82, 56);
 
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Anton", sans-serif;
     
-    border: 2px solid rgb(235, 35, 35) ;
-    border-radius: 5px;
-    padding: 5px;
+
+    padding: 10px;
     padding-top : 10px;
-    margin-left: 20em;
-    margin-right: 20em;
+    margin-left: 0em;
+    margin-right: 0em;
 
     
 }
 
+
 nav, nav a {
+
     text-decoration: none;
+
     color: rgb(214, 207, 207);
+    background-color: rgb(20, 20, 20);
 
     font-family: "Nunito", sans-serif;
     text-align: center;
+    padding-top : 2px;
+    padding-bottom: 2px;
+    margin-right: 0px;
 
 
 }
 
-.divers {
-
-    display: flex;
-    background-color: blue;
-    width: 300px;
-    height: 60em;
-    flex-direction: column;
+main {
 
 
+}
+
+.coordonnees {
+
+    margin-left: 20px;
+
+
+}
+
+.diplomes {
+
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+.centre_interets {
+    margin-left: 20px;
+}
+
+h1 {
+
+    font-size: 21px;
+    font-family: "Nunito", sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.coordonnees, .coordonnees li {
+    color:rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.diplomes, .diplomes li {
+    color:rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+
+.centre_interets, .centre_interets li {
+    color:rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .maintext {
